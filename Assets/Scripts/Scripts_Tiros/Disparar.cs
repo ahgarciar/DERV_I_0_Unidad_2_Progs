@@ -9,11 +9,15 @@ public class Disparar : MonoBehaviour
     [SerializeField]
     GameObject bullet;
 
+    int i; 
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        i = 0;    
     }
+
+    
 
     // Update is called once per frame
     void Update()
@@ -22,6 +26,9 @@ public class Disparar : MonoBehaviour
         {
             GameObject bull = Instantiate(bullet, posSpawner.transform.position,
                 posSpawner.transform.rotation);
+
+            bull.name = "Municion_" + i;
+            i++;
 
             Destroy(bull, 5);
 
