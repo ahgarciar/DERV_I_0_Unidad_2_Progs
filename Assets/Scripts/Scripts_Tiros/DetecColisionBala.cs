@@ -30,7 +30,7 @@ public class DetecColisionBala : MonoBehaviour
         {
             int temp = Convert.ToInt32(txt_puntaje.text) + 1;
             txt_puntaje.text = temp.ToString();
-
+            
             string name = collision.gameObject.name;
 
             GameObject bala = GameObject.Find(name);
