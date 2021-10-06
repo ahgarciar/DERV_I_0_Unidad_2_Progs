@@ -4,6 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "Personaje_", menuName = "Crear Personaje", order = 1)]
 public class Personajes : ScriptableObject
-{
-    string nombre;
+{    
+   public string nombre;
+   public Sprite imagen;
 }
