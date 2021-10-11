@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 1406861291}
   - component: {fileID: 1406861290}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Imagen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -717,6 +717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2002820904}
   - component: {fileID: 2002820903}
+  - component: {fileID: 2002820905}
   m_Layer: 0
   m_Name: ManejadorDialogo
   m_TagString: Untagged
@@ -731,7 +732,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002820902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cfb2e229d27d0342abded142d4b535c, type: 3}
   m_Name: 
@@ -756,6 +757,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2002820905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002820902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a4f3752e5ca62b4da54d8d44ad53662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogo: {fileID: 11400000, guid: 29110f9ef7d7d63439879bc779aea7ff, type: 2}
+  indexActual: 0
+  contenedorImagen: {fileID: 0}
+  image: {fileID: 0}
 --- !u!1 &2041976274
 GameObject:
   m_ObjectHideFlags: 0

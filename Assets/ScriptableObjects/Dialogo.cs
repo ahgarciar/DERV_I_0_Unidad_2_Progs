@@ -17,14 +17,13 @@ public class Dialogo : ScriptableObject
     
     public Mensaje []mensaje;
 
-    public int indexActual;
 
-   public void getDatosPersonaje(int i) {
-        Debug.Log(mensaje[i].personaje.nombre);        
+   public Mensaje getDatosPersonaje(int i) {
+        return (mensaje[i]);        
     }
 
-    public void getCantidadDialogos() {
-        Debug.Log(mensaje.Length);
+    public int getCantidadMensajes() {
+        return mensaje.Length;
     }
 
 

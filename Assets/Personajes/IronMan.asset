@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26da358dfc4d241418f5ff51c91cb22b, type: 3}
-  m_Name: SpiderMan
+  m_Name: IronMan
   m_EditorClassIdentifier: 
-  nombre: Peter Parker
-  imagen: {fileID: 21300000, guid: f80a80c066369d94ea5e00b889e7a116, type: 3}
+  nombre: Tony Stark
+  imagen: {fileID: 21300000, guid: fe8377da0b2e3904a8a12b17afca49d3, type: 3}
