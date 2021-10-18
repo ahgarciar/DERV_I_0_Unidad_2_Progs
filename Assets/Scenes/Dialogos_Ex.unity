@@ -738,7 +738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogo:
-  - Hola
+  - <b>Hola</b>
   - "\xBFComo estas?"
   - Me alegra!! :D
   - Saludos
@@ -773,6 +773,9 @@ MonoBehaviour:
   indexActual: 0
   contenedorImagen: {fileID: 0}
   image: {fileID: 0}
+  contenedorDialogo: {fileID: 1307144925}
+  texto: {fileID: 789498940}
+  imgDefecto: {fileID: 21300000, guid: d1aef1c176a0c7a4ca7eef51cc332ca3, type: 3}
 --- !u!1 &2041976274
 GameObject:
   m_ObjectHideFlags: 0

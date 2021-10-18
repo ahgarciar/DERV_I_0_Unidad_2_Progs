@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mensaje:
   - personaje: {fileID: 11400000, guid: 8fb5db48b23f66a4496049a65e09169c, type: 2}
-    dialogo: Soy un genio millonario, filatropo y playboy!
+    dialogo: Soy un <i>genio</i> <color=yellow>millonario</color>, filatropo y playboy!
   - personaje: {fileID: 11400000, guid: 890b737fbd3c44349939c3900f4f30ea, type: 2}
     dialogo: Clarooo Sr. Stark, usted lo es todo!
   - personaje: {fileID: 11400000, guid: 80c0adc2f63975547a94c376059efe1e, type: 2}
