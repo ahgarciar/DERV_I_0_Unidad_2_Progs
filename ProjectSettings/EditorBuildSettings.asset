@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ProyectoFuncional/InicioJuego.unity
+    guid: 42311118650ec8f4d82a838e776f4f01
+  - enabled: 1
+    path: Assets/Scenes/ProyectoFuncional/EnemigoFurioso.unity
+    guid: 8de399a93db4324469ee26169bc78beb
+  - enabled: 1
+    path: Assets/Scenes/ProyectoFuncional/FinJuego.unity
+    guid: 6334d15ec7094984aa60032947f04597
   m_configObjects: {}

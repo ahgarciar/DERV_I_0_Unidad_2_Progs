@@ -99,6 +99,9 @@ public class Dialogo_SO : MonoBehaviour
             {
                 texto.maxVisibleCharacters += 1;
             }
+            else {
+                StopCoroutine("mostrarTexto");
+            }
             Debug.Log("Ejecucíón Corrutina");
             yield return new WaitForSeconds(.05f);
         }
